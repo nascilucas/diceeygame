@@ -28,7 +28,7 @@ function checkResult(randomNumber1, randomNumber2){
   }else if (randomNumber1 > randomNumber2) {
     titleSelector.textContent = "Player 1 Wins! 🥳";
   }else if (randomNumber1 < randomNumber2) {
-    titleSelector.textContent = "Player 2 Wins... 😤";
+    titleSelector.textContent = "Player 2 Wins! 😤";
   }else{
     titleSelector.textContent = "";    
   }
